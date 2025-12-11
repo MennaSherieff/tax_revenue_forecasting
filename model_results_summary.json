@@ -1,0 +1,60 @@
+{
+  "timestamp": "2025-12-10T20:14:51.884449",
+  "top_3_models": [
+    "Lasso",
+    "Ridge",
+    "XGB"
+  ],
+  "ensemble_weights": [
+    0.5425207644334266,
+    0.45747840848771837,
+    8.270788551391361e-07
+  ],
+  "feature_engineering_version": "v1.0",
+  "number_of_features": 26,
+  "number_of_samples": 305,
+  "data_date_range": {
+    "start": "1947-01-01",
+    "end": "2025-04-01"
+  },
+  "Lasso_performance": {
+    "cv_test_r2": 0.655947052670456,
+    "test_rmse": 121.8556640391665,
+    "best_params": {
+      "alpha": 0.1
+    }
+  },
+  "Ridge_performance": {
+    "cv_test_r2": 0.553124503868381,
+    "test_rmse": 143.1407779373387,
+    "best_params": {
+      "alpha": 0.01
+    }
+  },
+  "XGB_performance": {
+    "cv_test_r2": -2.0990888799821965,
+    "test_rmse": 508.40657765650235,
+    "best_params": {
+      "learning_rate": 0.05,
+      "max_depth": 2,
+      "n_estimators": 400
+    }
+  },
+  "RandomForest_performance": {
+    "cv_test_r2": -2.2556313985250234,
+    "test_rmse": 529.6889049181489,
+    "best_params": {
+      "max_depth": 8,
+      "n_estimators": 50
+    }
+  },
+  "LightGBM_performance": {
+    "cv_test_r2": -2.7294229655564854,
+    "test_rmse": 513.8847940731048,
+    "best_params": {
+      "learning_rate": 0.05,
+      "n_estimators": 500,
+      "num_leaves": 20
+    }
+  }
+}

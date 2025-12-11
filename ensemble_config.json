@@ -1,0 +1,16 @@
+{
+  "ensemble_models": [
+    "Lasso",
+    "Ridge",
+    "XGB"
+  ],
+  "ensemble_weights": [
+    0.5425207644334266,
+    0.45747840848771837,
+    8.270788551391361e-07
+  ],
+  "ensemble_type": "weighted_average",
+  "feature_engineering_function": "feature_engineer",
+  "target_column": "tax_revenue",
+  "forecast_function": "sequential_forecast_with_exog"
+}
